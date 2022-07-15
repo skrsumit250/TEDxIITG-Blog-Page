@@ -1,0 +1,126 @@
+.max-width-1{
+    max-width: 90vw;
+}
+.max-width-2{
+    max-width: 60vw;
+}
+.m-auto{
+    margin: auto;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.navigation{
+    height: 100px;
+    background-color:black;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    display: flex;
+}
+.rightnav{
+    word-spacing: 10px;
+}
+.root :hover{
+    transform: scale(1.5);
+}
+.root{
+    word-spacing: 15px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: red;
+    transform: scale(1.07) ;
+}
+.foot{
+    height: 150px;
+    background-color:black;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+h3,p{
+    color: black;
+}
+h4{
+    color: rgb(78, 78, 123);
+}
+h3:hover{
+    color: red;
+    transform: scale(1.03);
+}
+h4:hover{
+    color: red;
+    transform: scale(1.02);
+}
+h2{
+    color:white;
+}
+h5{
+    color: white;
+}
+h1,h6{
+    color:red;
+}
+.content{
+    width: 100vw;
+    background-color:grey;
+}
+#more{
+    padding: 10px;
+    color: blue;
+}
+.container{
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.card{
+    background-color:white;
+    width: 300px;
+    align-items: center;
+    margin: 10px;
+    border-radius:15px 15px;
+    padding: 10px;
+    flex-wrap: nowrap;
+    align-self: normal;
+}
+.card:hover{
+    color: white;
+    background-color: rgb(35, 70, 79);
+    transform: scale(1.05);
+    cursor: pointer;
+}
+.card-image{
+    background-color: rgb(63, 67, 67);
+    background-size: cover;
+    margin-bottom: 10px;
+    height: 150px;
+
+}
+.card1{
+    background-image: url("image/img1.png");
+}
+.card2{
+    background-image: url("image/img2.png");
+}
+.card3{
+    background-image: url("image/img3.png");
+}
+.card4{
+    background-image: url("image/img4.png");
+}
+.card5{
+    background-image: url("image/img5.png");
+}
+.card6{
+    background-image: url("image/img6.png");
+}
